@@ -1,0 +1,7 @@
+# ignore heavy model files and compiled data
+models/**/*.onnx
+models/**/*.pth
+models/**/*.caffemodel
+models/users.db
+*.pyc
+__pycache__/
